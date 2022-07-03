@@ -26,3 +26,34 @@ body{
     margin: 10px auto;
     border-color: red;
 }
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    background-color: rgb(84, 77, 77);
+    border-radius: 20px;
+}
+.left img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.left div{
+    color: antiquewhite;
+    text-align: center;
+    font: 100px;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Splash', cursive;
+    background-color: rgb(44, 84, 89);
+    border-radius: 30%;
+}
