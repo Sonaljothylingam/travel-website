@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url('lively.jpg');
+
+}
+.left{
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 34px;
+    border: 10px;
+    border-color: red;
+}
+.right{
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    right: 34px;
+    border: 10px;
+    border-color: red;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 10px auto;
+    border-color: red;
+}
