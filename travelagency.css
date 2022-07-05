@@ -10,7 +10,7 @@ body{
     top: 10px;
     left: 34px;
     border: 10px;
-    border-color: red;
+    
 }
 .right{
     position: absolute;
@@ -18,13 +18,13 @@ body{
     top: 10px;
     right: 34px;
     border: 10px;
-    border-color: red;
+    
 }
 .mid{
     display: block;
     width: 33%;
     margin: 10px auto;
-    border-color: red;
+   
 }
 .navbar{
     display: inline-block;
@@ -56,4 +56,15 @@ body{
     font-family: 'Splash', cursive;
     background-color: rgb(44, 84, 89);
     border-radius: 30%;
+}
+.btn{
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+    color: antiquewhite;
+    background-color:rgb(84, 77, 77) ;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
 }
