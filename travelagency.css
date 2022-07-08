@@ -95,6 +95,7 @@ body{
     background-color:rgb(84, 77, 77) ;
     position:relative;    
     top :20px;
+    border-radius: 3px;
 }
 .btn2:hover{
     cursor: pointer;
