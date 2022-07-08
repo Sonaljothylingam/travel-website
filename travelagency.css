@@ -69,14 +69,34 @@ body{
     background-color: black;
 }
 .container{
-    margin: 90px;
-    border: 2px wheat;
+    margin: 70px;
     width:33%;
-    margin:106px 80px;
-    padding: 75px;
-    border-radius: 10%;
+    margin:100px 80px;
+    padding: 70px;
+    border-radius: 28px;
+    background-color: beige;
 }
-.container h4{
+.container h2{
+    color: rgb(40, 3, 3);
+    font: 50px; 
+    text-align: center;
+}
+.form input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding:10px;
+    margin: 10px auto;
+}
+.btn2{ border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
     color: antiquewhite;
-    font: 20px;
+    background-color:rgb(84, 77, 77) ;
+    position:relative;    
+    top :20px;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: black;
 }
