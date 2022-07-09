@@ -75,6 +75,9 @@ body{
     padding: 70px;
     border-radius: 28px;
     background-color: beige;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .container h2{
     color: rgb(40, 3, 3);
